@@ -6,7 +6,11 @@
 ## Git Commands  
 ```shell  
  git add .
+ ```
+ ```shell
  git commit -m "Update"
+ ```
+ ```shell
  git push
  ```
  
