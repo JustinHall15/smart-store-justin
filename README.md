@@ -12,7 +12,7 @@
  
 ## Run a Python Script
 ```shell  
-> py scripts\script_name.py
+py scripts\script_name.py
 ```
 
 ## Install Packages From Requirements
