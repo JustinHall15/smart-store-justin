@@ -3,3 +3,457 @@
 2025-03-22 15:53:40.846 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-justin\data\raw\products_data.csv.
 2025-03-22 15:53:40.858 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-justin\data\raw\sales_data.csv.
 2025-03-22 15:53:40.870 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-27 19:53:29.723 | INFO     | __main__:main:108 - ==================================
+2025-03-27 19:53:29.724 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 19:53:29.724 | INFO     | __main__:main:110 - ==================================
+2025-03-27 19:53:29.724 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 19:53:29.724 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 19:53:29.725 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 19:53:29.725 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 19:53:29.725 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 19:53:29.725 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 19:53:29.733 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 7 columns
+2025-03-27 19:53:29.733 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender, Unnamed: 6
+2025-03-27 19:53:29.733 | INFO     | __main__:main:125 - Initial dataframe shape: (13, 7)
+2025-03-27 19:53:29.736 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 7)
+2025-03-27 19:53:29.744 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 19:53:29.745 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-27 19:53:29.745 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 7)
+2025-03-27 19:53:29.747 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 16
+2025-03-27 19:54:25.595 | INFO     | __main__:main:108 - ==================================
+2025-03-27 19:54:25.596 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 19:54:25.596 | INFO     | __main__:main:110 - ==================================
+2025-03-27 19:54:25.596 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 19:54:25.596 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 19:54:25.596 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 19:54:25.596 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 19:54:25.597 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 19:54:25.597 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 19:54:25.600 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 7 columns
+2025-03-27 19:54:25.600 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender, Unnamed: 6
+2025-03-27 19:54:25.600 | INFO     | __main__:main:125 - Initial dataframe shape: (13, 7)
+2025-03-27 19:54:25.601 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 7)
+2025-03-27 19:54:25.602 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 19:54:25.605 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-27 19:54:25.606 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 7)
+2025-03-27 19:54:25.606 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 16
+2025-03-27 19:55:43.838 | INFO     | __main__:main:108 - ==================================
+2025-03-27 19:55:43.838 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 19:55:43.839 | INFO     | __main__:main:110 - ==================================
+2025-03-27 19:55:43.839 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 19:55:43.839 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 19:55:43.839 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 19:55:43.839 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 19:55:43.839 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 19:55:43.839 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 19:55:43.842 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 7 columns
+2025-03-27 19:55:43.843 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender, Unnamed: 6
+2025-03-27 19:55:43.843 | INFO     | __main__:main:125 - Initial dataframe shape: (13, 7)
+2025-03-27 19:55:43.843 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 7)
+2025-03-27 19:55:43.845 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 19:55:43.845 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-27 19:55:43.845 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 7)
+2025-03-27 19:55:43.846 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 16
+2025-03-27 19:56:01.987 | INFO     | __main__:main:108 - ==================================
+2025-03-27 19:56:01.987 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 19:56:01.987 | INFO     | __main__:main:110 - ==================================
+2025-03-27 19:56:01.988 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 19:56:01.988 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 19:56:01.988 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 19:56:01.988 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 19:56:01.989 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 19:56:01.989 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 19:56:01.992 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 7 columns
+2025-03-27 19:56:01.993 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender, Unnamed: 6
+2025-03-27 19:56:01.993 | INFO     | __main__:main:125 - Initial dataframe shape: (13, 7)
+2025-03-27 19:56:01.994 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 7)
+2025-03-27 19:56:01.995 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 19:56:01.995 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-27 19:56:01.995 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 7)
+2025-03-27 19:56:01.996 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 16
+2025-03-27 19:56:02.001 | INFO     | __main__:handle_missing_values:71 - Blank values filled in
+2025-03-27 19:56:02.004 | INFO     | __main__:handle_missing_values:73 - Records with missing CustomerID dropped
+2025-03-27 19:56:02.005 | INFO     | __main__:handle_missing_values:77 - Total missing values after handling: 11
+2025-03-27 19:56:02.005 | INFO     | __main__:handle_missing_values:78 - 12 records remaining after handling missing values.
+2025-03-27 19:56:02.006 | INFO     | __main__:remove_outliers:85 - FUNCTION START: remove_outliers with dataframe shape=(12, 7)
+2025-03-27 20:21:43.418 | INFO     | __main__:main:108 - ==================================
+2025-03-27 20:21:43.418 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 20:21:43.418 | INFO     | __main__:main:110 - ==================================
+2025-03-27 20:21:43.418 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 20:21:43.418 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 20:21:43.418 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 20:21:43.418 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 20:21:43.418 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 20:21:43.419 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 20:21:43.440 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 14 rows and 6 columns
+2025-03-27 20:21:43.440 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender
+2025-03-27 20:21:43.440 | INFO     | __main__:main:125 - Initial dataframe shape: (14, 6)
+2025-03-27 20:21:43.440 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(14, 6)
+2025-03-27 20:21:43.442 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 20:21:43.442 | INFO     | __main__:remove_duplicates:51 - 13 records remaining after removing duplicates.
+2025-03-27 20:21:43.442 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(13, 6)
+2025-03-27 20:21:43.442 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 10
+2025-03-27 20:21:43.446 | INFO     | __main__:handle_missing_values:71 - Blank values filled in
+2025-03-27 20:21:43.449 | INFO     | __main__:handle_missing_values:73 - Records with missing CustomerID dropped
+2025-03-27 20:21:43.449 | INFO     | __main__:handle_missing_values:77 - Total missing values after handling: 0
+2025-03-27 20:21:43.450 | INFO     | __main__:handle_missing_values:78 - 12 records remaining after handling missing values.
+2025-03-27 20:21:43.450 | INFO     | __main__:remove_outliers:85 - FUNCTION START: remove_outliers with dataframe shape=(12, 6)
+2025-03-27 20:23:14.040 | INFO     | __main__:main:108 - ==================================
+2025-03-27 20:23:14.040 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 20:23:14.040 | INFO     | __main__:main:110 - ==================================
+2025-03-27 20:23:14.040 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 20:23:14.041 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 20:23:14.041 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 20:23:14.041 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 20:23:14.041 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 20:23:14.042 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 20:23:14.046 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 14 rows and 6 columns
+2025-03-27 20:23:14.046 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender
+2025-03-27 20:23:14.046 | INFO     | __main__:main:125 - Initial dataframe shape: (14, 6)
+2025-03-27 20:23:14.047 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(14, 6)
+2025-03-27 20:23:14.048 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 20:23:14.049 | INFO     | __main__:remove_duplicates:51 - 13 records remaining after removing duplicates.
+2025-03-27 20:23:14.049 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(13, 6)
+2025-03-27 20:23:14.049 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 10
+2025-03-27 20:23:14.053 | INFO     | __main__:handle_missing_values:71 - Blank values filled in
+2025-03-27 20:23:14.054 | INFO     | __main__:handle_missing_values:73 - Records with missing CustomerID dropped
+2025-03-27 20:23:14.055 | INFO     | __main__:handle_missing_values:77 - Total missing values after handling: 0
+2025-03-27 20:23:14.055 | INFO     | __main__:handle_missing_values:78 - 12 records remaining after handling missing values.
+2025-03-27 20:23:14.055 | INFO     | __main__:remove_outliers:85 - FUNCTION START: remove_outliers with dataframe shape=(12, 6)
+2025-03-27 20:30:06.542 | INFO     | __main__:main:108 - ==================================
+2025-03-27 20:30:06.542 | INFO     | __main__:main:109 - STARTING prepare_customers_data.py
+2025-03-27 20:30:06.542 | INFO     | __main__:main:110 - ==================================
+2025-03-27 20:30:06.542 | INFO     | __main__:main:112 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 20:30:06.543 | INFO     | __main__:main:113 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 20:30:06.543 | INFO     | __main__:main:114 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 20:30:06.543 | INFO     | __main__:main:115 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 20:30:06.543 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 20:30:06.544 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 20:30:06.548 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 14 rows and 6 columns
+2025-03-27 20:30:06.548 | INFO     | __main__:main:124 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender
+2025-03-27 20:30:06.549 | INFO     | __main__:main:125 - Initial dataframe shape: (14, 6)
+2025-03-27 20:30:06.550 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(14, 6)
+2025-03-27 20:30:06.551 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 20:30:06.552 | INFO     | __main__:remove_duplicates:51 - 13 records remaining after removing duplicates.
+2025-03-27 20:30:06.552 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(13, 6)
+2025-03-27 20:30:06.552 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 10
+2025-03-27 20:30:06.556 | INFO     | __main__:handle_missing_values:71 - Blank values filled in
+2025-03-27 20:30:06.557 | INFO     | __main__:handle_missing_values:73 - Records with missing CustomerID dropped
+2025-03-27 20:30:06.558 | INFO     | __main__:handle_missing_values:77 - Total missing values after handling: 0
+2025-03-27 20:30:06.559 | INFO     | __main__:handle_missing_values:78 - 12 records remaining after handling missing values.
+2025-03-27 20:30:06.560 | INFO     | __main__:remove_outliers:85 - FUNCTION START: remove_outliers with dataframe shape=(12, 6)
+2025-03-27 20:30:06.560 | INFO     | __main__:remove_outliers:99 - Removed 0 outlier rows
+2025-03-27 20:30:06.564 | INFO     | __main__:remove_outliers:100 - 12 records remaining after removing outliers.
+2025-03-27 20:30:06.565 | INFO     | __main__:save_prepared_data:37 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(12, 6)
+2025-03-27 20:30:06.571 | INFO     | __main__:save_prepared_data:40 - Data saved to C:\Projects\smart-store-justin\data\prepared\customers_data_prepared.csv
+2025-03-27 20:30:06.572 | INFO     | __main__:main:148 - ==================================
+2025-03-27 20:30:06.572 | INFO     | __main__:main:149 - FINISHED prepare_customers_data.py
+2025-03-27 20:30:06.573 | INFO     | __main__:main:150 - ==================================
+2025-03-27 20:37:45.729 | INFO     | __main__:main:110 - ==================================
+2025-03-27 20:37:45.729 | INFO     | __main__:main:111 - STARTING prepare_customers_data.py
+2025-03-27 20:37:45.729 | INFO     | __main__:main:112 - ==================================
+2025-03-27 20:37:45.730 | INFO     | __main__:main:114 - Root project folder: C:\Projects\smart-store-justin
+2025-03-27 20:37:45.730 | INFO     | __main__:main:115 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-27 20:37:45.730 | INFO     | __main__:main:116 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-27 20:37:45.730 | INFO     | __main__:main:117 - scripts folder: C:\Projects\smart-store-justin\scripts
+2025-03-27 20:37:45.730 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: customers_data.csv
+2025-03-27 20:37:45.731 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\customers_data.csv
+2025-03-27 20:37:45.734 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 14 rows and 6 columns
+2025-03-27 20:37:45.735 | INFO     | __main__:main:126 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, Gender
+2025-03-27 20:37:45.735 | INFO     | __main__:main:127 - Initial dataframe shape: (14, 6)
+2025-03-27 20:37:45.736 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(14, 6)
+2025-03-27 20:37:45.737 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-27 20:37:45.737 | INFO     | __main__:remove_duplicates:51 - 13 records remaining after removing duplicates.
+2025-03-27 20:37:45.737 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(13, 6)
+2025-03-27 20:37:45.738 | INFO     | __main__:handle_missing_values:62 - Total missing values before handling: 10
+2025-03-27 20:37:45.742 | INFO     | __main__:handle_missing_values:71 - Blank values filled in
+2025-03-27 20:37:45.743 | INFO     | __main__:handle_missing_values:73 - Records with missing CustomerID dropped
+2025-03-27 20:37:45.744 | INFO     | __main__:handle_missing_values:77 - Total missing values after handling: 0
+2025-03-27 20:37:45.744 | INFO     | __main__:handle_missing_values:78 - 12 records remaining after handling missing values.
+2025-03-27 20:37:45.745 | INFO     | __main__:remove_outliers:85 - FUNCTION START: remove_outliers with dataframe shape=(12, 6)
+2025-03-27 20:37:45.748 | INFO     | __main__:remove_outliers:101 - Removed 2 outlier rows
+2025-03-27 20:37:45.748 | INFO     | __main__:remove_outliers:102 - 10 records remaining after removing outliers.
+2025-03-27 20:37:45.748 | INFO     | __main__:save_prepared_data:37 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(10, 6)
+2025-03-27 20:37:45.751 | INFO     | __main__:save_prepared_data:40 - Data saved to C:\Projects\smart-store-justin\data\prepared\customers_data_prepared.csv
+2025-03-27 20:37:45.752 | INFO     | __main__:main:150 - ==================================
+2025-03-27 20:37:45.752 | INFO     | __main__:main:151 - FINISHED prepare_customers_data.py
+2025-03-27 20:37:45.752 | INFO     | __main__:main:152 - ==================================
+2025-03-28 03:59:44.083 | INFO     | __main__:main:158 - ==================================
+2025-03-28 03:59:44.084 | INFO     | __main__:main:159 - STARTING prepare_products_data.py
+2025-03-28 03:59:44.084 | INFO     | __main__:main:160 - ==================================
+2025-03-28 03:59:44.084 | INFO     | __main__:main:162 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 03:59:44.085 | INFO     | __main__:main:163 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 03:59:44.085 | INFO     | __main__:main:164 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 03:59:44.085 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: products_data.csv
+2025-03-28 03:59:44.086 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\products_data.csv
+2025-03-28 03:59:44.089 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 8 columns
+2025-03-28 03:59:44.090 | INFO     | __main__:main:173 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier, Unnamed: 6, 3
+2025-03-28 03:59:44.090 | INFO     | __main__:main:174 - Initial dataframe shape: (13, 8)
+2025-03-28 03:59:44.092 | INFO     | __main__:main:183 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier, Unnamed: 6 -> unnamed:_6
+2025-03-28 03:59:44.092 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 8)
+2025-03-28 03:59:44.094 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-28 03:59:44.095 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-28 03:59:44.095 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 8)
+2025-03-28 03:59:44.100 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+productid       1
+productname     1
+category        2
+unitprice       2
+stock           2
+supplier        2
+unnamed:_6     11
+3              12
+dtype: int64
+2025-03-28 04:00:58.152 | INFO     | __main__:main:158 - ==================================
+2025-03-28 04:00:58.152 | INFO     | __main__:main:159 - STARTING prepare_products_data.py
+2025-03-28 04:00:58.152 | INFO     | __main__:main:160 - ==================================
+2025-03-28 04:00:58.152 | INFO     | __main__:main:162 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:00:58.153 | INFO     | __main__:main:163 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:00:58.153 | INFO     | __main__:main:164 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:00:58.153 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: products_data.csv
+2025-03-28 04:00:58.153 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\products_data.csv
+2025-03-28 04:00:58.156 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 8 columns
+2025-03-28 04:00:58.156 | INFO     | __main__:main:173 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier, Unnamed: 6, 3
+2025-03-28 04:00:58.156 | INFO     | __main__:main:174 - Initial dataframe shape: (13, 8)
+2025-03-28 04:00:58.156 | INFO     | __main__:main:183 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier, Unnamed: 6 -> unnamed:_6
+2025-03-28 04:00:58.157 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 8)
+2025-03-28 04:00:58.158 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-28 04:00:58.159 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-28 04:00:58.159 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 8)
+2025-03-28 04:00:58.161 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+productid       1
+productname     1
+category        2
+unitprice       2
+stock           2
+supplier        2
+unnamed:_6     11
+3              12
+dtype: int64
+2025-03-28 04:04:31.407 | INFO     | __main__:main:158 - ==================================
+2025-03-28 04:04:31.408 | INFO     | __main__:main:159 - STARTING prepare_products_data.py
+2025-03-28 04:04:31.409 | INFO     | __main__:main:160 - ==================================
+2025-03-28 04:04:31.409 | INFO     | __main__:main:162 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:04:31.410 | INFO     | __main__:main:163 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:04:31.410 | INFO     | __main__:main:164 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:04:31.410 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: products_data.csv
+2025-03-28 04:04:31.411 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\products_data.csv
+2025-03-28 04:04:31.413 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 8 columns
+2025-03-28 04:04:31.414 | INFO     | __main__:main:173 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier, Unnamed: 6, 3
+2025-03-28 04:04:31.414 | INFO     | __main__:main:174 - Initial dataframe shape: (13, 8)
+2025-03-28 04:04:31.415 | INFO     | __main__:main:183 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier, Unnamed: 6 -> unnamed:_6
+2025-03-28 04:04:31.415 | INFO     | __main__:validate_data:136 - FUNCTION START: validate_data with dataframe shape=(13, 8)
+2025-03-28 04:11:03.218 | INFO     | __main__:main:158 - ==================================
+2025-03-28 04:11:03.218 | INFO     | __main__:main:159 - STARTING prepare_products_data.py
+2025-03-28 04:11:03.219 | INFO     | __main__:main:160 - ==================================
+2025-03-28 04:11:03.219 | INFO     | __main__:main:162 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:11:03.219 | INFO     | __main__:main:163 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:11:03.219 | INFO     | __main__:main:164 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:11:03.219 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: products_data.csv
+2025-03-28 04:11:03.220 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\products_data.csv
+2025-03-28 04:11:03.222 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 8 columns
+2025-03-28 04:11:03.222 | INFO     | __main__:main:173 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier, Unnamed: 6, 3
+2025-03-28 04:11:03.223 | INFO     | __main__:main:174 - Initial dataframe shape: (13, 8)
+2025-03-28 04:11:03.223 | INFO     | __main__:main:183 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier, Unnamed: 6 -> unnamed:_6
+2025-03-28 04:11:03.224 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 8)
+2025-03-28 04:11:03.225 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-28 04:11:03.226 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-28 04:11:03.226 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 8)
+2025-03-28 04:11:03.227 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+productid       1
+productname     1
+category        2
+unitprice       2
+stock           2
+supplier        2
+unnamed:_6     11
+3              12
+dtype: int64
+2025-03-28 04:11:03.234 | INFO     | __main__:handle_missing_values:72 - Blank values filled in
+2025-03-28 04:11:03.235 | INFO     | __main__:handle_missing_values:74 - Records with missing CustomerID dropped
+2025-03-28 04:11:03.235 | INFO     | __main__:handle_missing_values:78 - Total missing values after handling: 21
+2025-03-28 04:11:03.236 | INFO     | __main__:handle_missing_values:79 - 11 records remaining after handling missing values.
+2025-03-28 04:11:03.236 | INFO     | __main__:standardize_formats:119 - FUNCTION START: standardize_formats with dataframe shape=(11, 8)
+2025-03-28 04:11:03.236 | INFO     | __main__:standardize_formats:129 - Completed standardizing formats
+2025-03-28 04:11:03.236 | INFO     | __main__:remove_outliers:86 - FUNCTION START: remove_outliers with dataframe shape=(11, 8)
+2025-03-28 04:11:03.239 | INFO     | __main__:remove_outliers:103 - Applied outlier removal to stock: bounds [-152.25, 333.75]
+2025-03-28 04:11:03.240 | INFO     | __main__:remove_outliers:103 - Applied outlier removal to unitprice: bounds [-56.145, 176.055]
+2025-03-28 04:11:03.240 | INFO     | __main__:remove_outliers:111 - Removed 2 outlier rows
+2025-03-28 04:11:03.240 | INFO     | __main__:remove_outliers:112 - 9 records remaining after removing outliers.
+2025-03-28 04:11:03.241 | INFO     | __main__:validate_data:136 - FUNCTION START: validate_data with dataframe shape=(9, 8)
+2025-03-28 04:11:03.242 | INFO     | __main__:validate_data:142 - Found 0 products with negative prices
+2025-03-28 04:11:03.243 | INFO     | __main__:validate_data:149 - Removed columns not in ['productid', 'productname', 'category', 'unitprice', 'stock', 'suplier']
+2025-03-28 04:11:03.243 | INFO     | __main__:validate_data:151 - Data validation complete
+2025-03-28 04:11:03.244 | INFO     | __main__:save_prepared_data:37 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(9, 5)
+2025-03-28 04:11:03.246 | INFO     | __main__:save_prepared_data:40 - Data saved to C:\Projects\smart-store-justin\data\prepared\products_data_prepared.csv
+2025-03-28 04:11:03.246 | INFO     | __main__:main:196 - ==================================
+2025-03-28 04:11:03.247 | INFO     | __main__:main:197 - FINISHED prepare_products_data.py
+2025-03-28 04:11:03.247 | INFO     | __main__:main:198 - ==================================
+2025-03-28 04:15:56.973 | INFO     | __main__:main:161 - ==================================
+2025-03-28 04:15:56.974 | INFO     | __main__:main:162 - STARTING prepare_products_data.py
+2025-03-28 04:15:56.975 | INFO     | __main__:main:163 - ==================================
+2025-03-28 04:15:56.975 | INFO     | __main__:main:165 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:15:56.975 | INFO     | __main__:main:166 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:15:56.975 | INFO     | __main__:main:167 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:15:56.975 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: products_data.csv
+2025-03-28 04:15:56.979 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\products_data.csv
+2025-03-28 04:15:56.984 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 8 columns
+2025-03-28 04:15:56.984 | INFO     | __main__:main:176 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier, Unnamed: 6, 3
+2025-03-28 04:15:56.984 | INFO     | __main__:main:177 - Initial dataframe shape: (13, 8)
+2025-03-28 04:15:56.985 | INFO     | __main__:main:186 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier, Unnamed: 6 -> unnamed:_6
+2025-03-28 04:15:56.985 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 8)
+2025-03-28 04:15:56.987 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-28 04:15:56.987 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-28 04:15:56.987 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 8)
+2025-03-28 04:15:56.988 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+productid       1
+productname     1
+category        2
+unitprice       2
+stock           2
+supplier        2
+unnamed:_6     11
+3              12
+dtype: int64
+2025-03-28 04:15:56.992 | INFO     | __main__:handle_missing_values:72 - Blank values filled in
+2025-03-28 04:15:56.994 | INFO     | __main__:handle_missing_values:74 - Records with missing CustomerID dropped
+2025-03-28 04:15:56.994 | INFO     | __main__:handle_missing_values:78 - Total missing values after handling: 21
+2025-03-28 04:15:56.995 | INFO     | __main__:handle_missing_values:79 - 11 records remaining after handling missing values.
+2025-03-28 04:15:56.995 | INFO     | __main__:standardize_formats:119 - FUNCTION START: standardize_formats with dataframe shape=(11, 8)
+2025-03-28 04:15:56.995 | INFO     | __main__:standardize_formats:129 - Completed standardizing formats
+2025-03-28 04:15:56.996 | INFO     | __main__:remove_outliers:86 - FUNCTION START: remove_outliers with dataframe shape=(11, 8)
+2025-03-28 04:15:56.997 | INFO     | __main__:remove_outliers:103 - Applied outlier removal to stock: bounds [-152.25, 333.75]
+2025-03-28 04:15:56.999 | INFO     | __main__:remove_outliers:103 - Applied outlier removal to unitprice: bounds [-56.145, 176.055]
+2025-03-28 04:15:56.999 | INFO     | __main__:remove_outliers:111 - Removed 2 outlier rows
+2025-03-28 04:15:56.999 | INFO     | __main__:remove_outliers:112 - 9 records remaining after removing outliers.
+2025-03-28 04:15:57.000 | INFO     | __main__:validate_data:136 - FUNCTION START: validate_data with dataframe shape=(9, 8)
+2025-03-28 04:15:57.000 | INFO     | __main__:validate_data:142 - Found 0 products with negative prices
+2025-03-28 04:15:57.000 | INFO     | __main__:validate_data:145 - Found 1 products with negative stock
+2025-03-28 04:15:57.001 | INFO     | __main__:validate_data:152 - Removed columns not in ['productid', 'productname', 'category', 'unitprice', 'stock', 'suplier']
+2025-03-28 04:15:57.001 | INFO     | __main__:validate_data:154 - Data validation complete
+2025-03-28 04:15:57.002 | INFO     | __main__:save_prepared_data:37 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 5)
+2025-03-28 04:15:57.004 | INFO     | __main__:save_prepared_data:40 - Data saved to C:\Projects\smart-store-justin\data\prepared\products_data_prepared.csv
+2025-03-28 04:15:57.004 | INFO     | __main__:main:199 - ==================================
+2025-03-28 04:15:57.005 | INFO     | __main__:main:200 - FINISHED prepare_products_data.py
+2025-03-28 04:15:57.005 | INFO     | __main__:main:201 - ==================================
+2025-03-28 04:18:58.698 | INFO     | __main__:main:161 - ==================================
+2025-03-28 04:18:58.698 | INFO     | __main__:main:162 - STARTING prepare_products_data.py
+2025-03-28 04:18:58.699 | INFO     | __main__:main:163 - ==================================
+2025-03-28 04:18:58.699 | INFO     | __main__:main:165 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:18:58.699 | INFO     | __main__:main:166 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:18:58.699 | INFO     | __main__:main:167 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:18:58.699 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: products_data.csv
+2025-03-28 04:18:58.699 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\products_data.csv
+2025-03-28 04:18:58.702 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 13 rows and 8 columns
+2025-03-28 04:18:58.703 | INFO     | __main__:main:176 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier, Unnamed: 6, 3
+2025-03-28 04:18:58.703 | INFO     | __main__:main:177 - Initial dataframe shape: (13, 8)
+2025-03-28 04:18:58.703 | INFO     | __main__:main:186 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier, Unnamed: 6 -> unnamed:_6
+2025-03-28 04:18:58.703 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(13, 8)
+2025-03-28 04:18:58.705 | INFO     | __main__:remove_duplicates:50 - Removed 1 duplicate rows
+2025-03-28 04:18:58.705 | INFO     | __main__:remove_duplicates:51 - 12 records remaining after removing duplicates.
+2025-03-28 04:18:58.705 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(12, 8)
+2025-03-28 04:18:58.706 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+productid       1
+productname     1
+category        2
+unitprice       2
+stock           2
+supplier        2
+unnamed:_6     11
+3              12
+dtype: int64
+2025-03-28 04:18:58.710 | INFO     | __main__:handle_missing_values:72 - Blank values filled in
+2025-03-28 04:18:58.711 | INFO     | __main__:handle_missing_values:74 - Records with missing CustomerID dropped
+2025-03-28 04:18:58.712 | INFO     | __main__:handle_missing_values:78 - Total missing values after handling: 21
+2025-03-28 04:18:58.712 | INFO     | __main__:handle_missing_values:79 - 11 records remaining after handling missing values.
+2025-03-28 04:18:58.713 | INFO     | __main__:standardize_formats:119 - FUNCTION START: standardize_formats with dataframe shape=(11, 8)
+2025-03-28 04:18:58.713 | INFO     | __main__:standardize_formats:129 - Completed standardizing formats
+2025-03-28 04:18:58.713 | INFO     | __main__:remove_outliers:86 - FUNCTION START: remove_outliers with dataframe shape=(11, 8)
+2025-03-28 04:18:58.715 | INFO     | __main__:remove_outliers:103 - Applied outlier removal to stock: bounds [-152.25, 333.75]
+2025-03-28 04:18:58.716 | INFO     | __main__:remove_outliers:103 - Applied outlier removal to unitprice: bounds [-56.145, 176.055]
+2025-03-28 04:18:58.716 | INFO     | __main__:remove_outliers:111 - Removed 2 outlier rows
+2025-03-28 04:18:58.717 | INFO     | __main__:remove_outliers:112 - 9 records remaining after removing outliers.
+2025-03-28 04:18:58.717 | INFO     | __main__:validate_data:136 - FUNCTION START: validate_data with dataframe shape=(9, 8)
+2025-03-28 04:18:58.718 | INFO     | __main__:validate_data:142 - Found 0 products with negative prices
+2025-03-28 04:18:58.718 | INFO     | __main__:validate_data:145 - Found 1 products with negative stock
+2025-03-28 04:18:58.720 | INFO     | __main__:validate_data:152 - Removed columns not in ['productid', 'productname', 'category', 'unitprice', 'stock', 'supplier']
+2025-03-28 04:18:58.720 | INFO     | __main__:validate_data:154 - Data validation complete
+2025-03-28 04:18:58.721 | INFO     | __main__:save_prepared_data:37 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-28 04:18:58.724 | INFO     | __main__:save_prepared_data:40 - Data saved to C:\Projects\smart-store-justin\data\prepared\products_data_prepared.csv
+2025-03-28 04:18:58.725 | INFO     | __main__:main:199 - ==================================
+2025-03-28 04:18:58.725 | INFO     | __main__:main:200 - FINISHED prepare_products_data.py
+2025-03-28 04:18:58.725 | INFO     | __main__:main:201 - ==================================
+2025-03-28 04:38:54.699 | INFO     | __main__:main:164 - ==================================
+2025-03-28 04:38:54.699 | INFO     | __main__:main:165 - STARTING prepare_sales_data.py
+2025-03-28 04:38:54.700 | INFO     | __main__:main:166 - ==================================
+2025-03-28 04:38:54.700 | INFO     | __main__:main:168 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:38:54.700 | INFO     | __main__:main:169 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:38:54.700 | INFO     | __main__:main:170 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:38:54.700 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: sales_data.csv
+2025-03-28 04:38:54.700 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\sales_data.csv
+2025-03-28 04:38:54.705 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 94 rows and 9 columns
+2025-03-28 04:38:54.705 | INFO     | __main__:main:179 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, PaymentType
+2025-03-28 04:38:54.705 | INFO     | __main__:main:180 - Initial dataframe shape: (94, 9)
+2025-03-28 04:38:54.706 | INFO     | __main__:main:189 - Cleaned column names: TransactionID -> transactionid, SaleDate -> saledate, CustomerID -> customerid, ProductID -> productid, StoreID -> storeid, CampaignID -> campaignid, SaleAmount -> saleamount, BonusPoints -> bonuspoints, PaymentType -> paymenttype
+2025-03-28 04:38:54.706 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-28 04:38:54.709 | INFO     | __main__:remove_duplicates:50 - Removed 0 duplicate rows
+2025-03-28 04:38:54.710 | INFO     | __main__:remove_duplicates:51 - 94 records remaining after removing duplicates.
+2025-03-28 04:38:54.710 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-28 04:38:54.711 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+transactionid    0
+saledate         0
+customerid       0
+productid        0
+storeid          0
+campaignid       0
+saleamount       0
+bonuspoints      0
+paymenttype      0
+dtype: int64
+2025-03-28 04:39:35.915 | INFO     | __main__:main:163 - ==================================
+2025-03-28 04:39:35.916 | INFO     | __main__:main:164 - STARTING prepare_sales_data.py
+2025-03-28 04:39:35.916 | INFO     | __main__:main:165 - ==================================
+2025-03-28 04:39:35.916 | INFO     | __main__:main:167 - Root project folder: C:\Projects\smart-store-justin
+2025-03-28 04:39:35.916 | INFO     | __main__:main:168 - data / raw folder: C:\Projects\smart-store-justin\data\raw
+2025-03-28 04:39:35.917 | INFO     | __main__:main:169 - data / prepared folder: C:\Projects\smart-store-justin\data\prepared
+2025-03-28 04:39:35.917 | INFO     | __main__:read_raw_data:26 - FUNCTION START: read_raw_data file: sales_data.csv
+2025-03-28 04:39:35.917 | INFO     | __main__:read_raw_data:28 - Reading data from: C:\Projects\smart-store-justin\data\raw\sales_data.csv
+2025-03-28 04:39:35.921 | INFO     | __main__:read_raw_data:30 - Loaded dataframe with 94 rows and 9 columns
+2025-03-28 04:39:35.921 | INFO     | __main__:main:178 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, PaymentType
+2025-03-28 04:39:35.921 | INFO     | __main__:main:179 - Initial dataframe shape: (94, 9)
+2025-03-28 04:39:35.922 | INFO     | __main__:main:188 - Cleaned column names: TransactionID -> transactionid, SaleDate -> saledate, CustomerID -> customerid, ProductID -> productid, StoreID -> storeid, CampaignID -> campaignid, SaleAmount -> saleamount, BonusPoints -> bonuspoints, PaymentType -> paymenttype
+2025-03-28 04:39:35.922 | INFO     | __main__:remove_duplicates:46 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-28 04:39:35.923 | INFO     | __main__:remove_duplicates:50 - Removed 0 duplicate rows
+2025-03-28 04:39:35.924 | INFO     | __main__:remove_duplicates:51 - 94 records remaining after removing duplicates.
+2025-03-28 04:39:35.924 | INFO     | __main__:handle_missing_values:58 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-28 04:39:35.924 | INFO     | __main__:handle_missing_values:63 - Missing values by column before handling:
+transactionid    0
+saledate         0
+customerid       0
+productid        0
+storeid          0
+campaignid       0
+saleamount       0
+bonuspoints      0
+paymenttype      0
+dtype: int64
+2025-03-28 04:39:35.927 | INFO     | __main__:handle_missing_values:71 - Blank values filled in
+2025-03-28 04:39:35.929 | INFO     | __main__:handle_missing_values:77 - Records with missing IDs dropped
+2025-03-28 04:39:35.929 | INFO     | __main__:handle_missing_values:81 - Total missing values after handling: 0
+2025-03-28 04:39:35.930 | INFO     | __main__:handle_missing_values:82 - 94 records remaining after handling missing values.
+2025-03-28 04:39:35.930 | INFO     | __main__:standardize_formats:121 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-28 04:39:35.930 | INFO     | __main__:standardize_formats:131 - Completed standardizing formats
+2025-03-28 04:39:35.930 | INFO     | __main__:remove_outliers:89 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-28 04:39:35.932 | INFO     | __main__:remove_outliers:105 - Applied outlier removal to saleamount: bounds [-774.1574999999999, 1594.5425]
+2025-03-28 04:39:35.932 | INFO     | __main__:remove_outliers:113 - Removed 17 outlier rows
+2025-03-28 04:39:35.932 | INFO     | __main__:remove_outliers:114 - 77 records remaining after removing outliers.
+2025-03-28 04:39:35.932 | INFO     | __main__:validate_data:138 - FUNCTION START: validate_data with dataframe shape=(77, 10)
+2025-03-28 04:39:35.933 | INFO     | __main__:validate_data:144 - Found 0 products with negative prices
+2025-03-28 04:39:35.934 | INFO     | __main__:validate_data:147 - Found 0 products with negative bonuspoints
+2025-03-28 04:39:35.935 | INFO     | __main__:validate_data:154 - Removed columns not in ['transactionid', 'saledate', 'customerid', 'productid', 'storeid', 'campaignid', 'saleamount', 'bonuspoints', 'paymenttype']
+2025-03-28 04:39:35.935 | INFO     | __main__:validate_data:156 - Data validation complete
+2025-03-28 04:39:35.935 | INFO     | __main__:save_prepared_data:37 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(77, 9)
+2025-03-28 04:39:35.939 | INFO     | __main__:save_prepared_data:40 - Data saved to C:\Projects\smart-store-justin\data\prepared\sales_data_prepared.csv
+2025-03-28 04:39:35.939 | INFO     | __main__:main:201 - ==================================
+2025-03-28 04:39:35.939 | INFO     | __main__:main:202 - FINISHED prepare_sales_data.py
+2025-03-28 04:39:35.940 | INFO     | __main__:main:203 - ==================================

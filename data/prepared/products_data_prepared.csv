@@ -1,0 +1,9 @@
+productid,productname,category,unitprice,stock,supplier
+102.0,hoodie,Clothing,39.1,292.0,ABCMerchandise
+103.0,cable,Electronics,22.76,97.0,Alibaba
+104.0,hat,Clothing,43.1,199.0,ABCMerchandise
+105.0,football,Sports,19.78,24.0,Santa
+106.0,controller,Electronics,88.98,37.0,Jackson
+107.0,jacket,Clothing,67.02,104.0,ABCMerchandise
+108.0,protector,Electronics,12.56,200.0,Santa
+1012.0,Unknown,General,55.06,0.0,Unknown
