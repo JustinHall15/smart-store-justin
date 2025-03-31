@@ -166,7 +166,7 @@ class DataScrubber:
         if drop:
             self.df = self.df.dropna()
         elif fill_value is not None:
-            self.df = self.df.fillna(fill_value, inplace=True)
+            self.df = self.df.fillna(fill_value)
         return self.df
 
     def inspect_data(self) -> Tuple[str, str]:
