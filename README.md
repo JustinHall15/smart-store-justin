@@ -23,3 +23,6 @@ py scripts\script_name.py
 ```shell  
 py -m pip install --upgrade -r requirements.txt
 ```
+
+## data_prep and data_scrubber
+Data prep should clean andn standardize all three data files. It uses almost all funtions in in the data scrubber. I could not get it to replace missing values. Something is deleting all data rows with missing info.
