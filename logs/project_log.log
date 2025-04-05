@@ -1457,3 +1457,61 @@ saledate         0
 dtype: int64, 'duplicate_count': np.int64(0)}
 2025-03-30 20:55:19.295 | INFO     | __main__:save_prepared_data:44 - Data saved to C:\Projects\smart-store-justin\data\prepared\sales_data_prepared.csv
 2025-03-30 20:55:19.295 | INFO     | __main__:main:158 - Data preparation complete.
+2025-04-05 15:51:11.741 | INFO     | __main__:main:154 - Starting data preparation...
+2025-04-05 15:51:11.742 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-justin\data\raw\customers_data.csv.
+2025-04-05 15:51:11.759 | INFO     | __main__:process_data:50 - Data before cleaning: {'null_counts': CustomerID       1
+Name             1
+Region           2
+JoinDate         2
+LoyaltyPoints    2
+Gender           2
+dtype: int64, 'duplicate_count': np.int64(1)}
+2025-04-05 15:51:11.769 | INFO     | __main__:process_data:145 - Data after cleaning: {'null_counts': customerid       0
+name             0
+region           0
+loyaltypoints    0
+gender           0
+joindate         0
+dtype: int64, 'duplicate_count': np.int64(0)}
+2025-04-05 15:51:11.772 | INFO     | __main__:save_prepared_data:44 - Data saved to C:\Projects\smart-store-justin\data\prepared\customers_data_prepared.csv
+2025-04-05 15:51:11.773 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-justin\data\raw\products_data.csv.
+2025-04-05 15:51:11.775 | INFO     | __main__:process_data:50 - Data before cleaning: {'null_counts': ProductID       1
+ProductName     1
+Category        2
+UnitPrice       2
+Stock           2
+Supplier        2
+Unnamed: 6     12
+3              13
+dtype: int64, 'duplicate_count': np.int64(1)}
+2025-04-05 15:51:11.784 | INFO     | __main__:process_data:145 - Data after cleaning: {'null_counts': productid      0
+productname    0
+category       0
+unitprice      0
+stock          0
+supplier       0
+dtype: int64, 'duplicate_count': np.int64(0)}
+2025-04-05 15:51:11.786 | INFO     | __main__:save_prepared_data:44 - Data saved to C:\Projects\smart-store-justin\data\prepared\products_data_prepared.csv
+2025-04-05 15:51:11.786 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-justin\data\raw\sales_data.csv.
+2025-04-05 15:51:11.789 | INFO     | __main__:process_data:50 - Data before cleaning: {'null_counts': TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+PaymentType      0
+dtype: int64, 'duplicate_count': np.int64(0)}
+2025-04-05 15:51:11.798 | INFO     | __main__:process_data:145 - Data after cleaning: {'null_counts': transactionid    0
+customerid       0
+productid        0
+storeid          0
+campaignid       0
+saleamount       0
+bonuspoints      0
+paymenttype      0
+saledate         0
+dtype: int64, 'duplicate_count': np.int64(0)}
+2025-04-05 15:51:11.801 | INFO     | __main__:save_prepared_data:44 - Data saved to C:\Projects\smart-store-justin\data\prepared\sales_data_prepared.csv
+2025-04-05 15:51:11.801 | INFO     | __main__:main:158 - Data preparation complete.
