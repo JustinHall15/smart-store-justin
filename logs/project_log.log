@@ -1515,3 +1515,13 @@ saledate         0
 dtype: int64, 'duplicate_count': np.int64(0)}
 2025-04-05 15:51:11.801 | INFO     | __main__:save_prepared_data:44 - Data saved to C:\Projects\smart-store-justin\data\prepared\sales_data_prepared.csv
 2025-04-05 15:51:11.801 | INFO     | __main__:main:158 - Data preparation complete.
+2025-04-05 17:23:19.441 | INFO     | __main__:insert_customers:56 - Customers data inserted into the customer table.
+2025-04-05 17:23:19.443 | ERROR    | __main__:insert_products:81 - Error inserting products: table product has no column named unit_price_usd
+2025-04-05 17:24:17.977 | INFO     | __main__:insert_customers:56 - Customers data inserted into the customer table.
+2025-04-05 17:24:17.978 | ERROR    | __main__:insert_products:81 - Error inserting products: table product has no column named unit_price_usd
+2025-04-05 17:31:34.700 | INFO     | __main__:insert_customers:56 - Customers data inserted into the customer table.
+2025-04-05 17:31:34.705 | INFO     | __main__:insert_products:79 - Products data inserted into the product table.
+2025-04-05 17:31:34.706 | ERROR    | __main__:insert_sales:110 - Error inserting sales: table sale has no column named transactionid
+2025-04-05 17:33:27.761 | INFO     | __main__:insert_customers:56 - Customers data inserted into the customer table.
+2025-04-05 17:33:27.764 | INFO     | __main__:insert_products:79 - Products data inserted into the product table.
+2025-04-05 17:33:27.767 | INFO     | __main__:insert_sales:108 - Sales data inserted into the sale table.
