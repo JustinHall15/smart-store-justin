@@ -35,6 +35,30 @@ def delete_existing_records(cursor: sqlite3.Cursor) -> None:
     cursor.execute("DELETE FROM product")
     cursor.execute("DELETE FROM sale")
 
+def insert_campaigns(campaign_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
+    """Insert campaign data into the campaign table."""
+    try:
+        # Check required columns
+        required_columns = {"campaignid", "campaignname", "startdate", "enddate"}
+        if not required_columns.issubset(campaign_df.columns):
+            logger.error(f"Missing columns in campaign DataFrame: {required_columns - set(campaign_df.columns)}")
+            return
+
+        # Map CSV columns to database table columns
+        campaign_df = campaign_df.rename(
+            columns={
+                "campaignid": "campaign_id",  # Map CSV column -> DB column
+                "campaignname": "campaign_name",
+                "startdate": "start_date",
+                "enddate": "end_date"
+            }
+        )
+        campaign_df.to_sql("campaign", cursor.connection, if_exists="append", index=False)
+        logger.info("Campaigns data inserted into the campaign table.")
+    except sqlite3.Error as e:
+        logger.error(f"Error inserting campaigns: {e}")
+        raise
+
 def insert_customers(customers_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
     """Insert customer data into the customer table."""
     try:
@@ -121,11 +145,13 @@ def load_data_to_db() -> None:
         delete_existing_records(cursor)
 
         # Load prepared data using pandas
+        campaign_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("campaign_data_prepared.csv"))
         customers_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("customers_data_prepared.csv"))
         products_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("products_data_prepared.csv"))
         sales_df = pd.read_csv(PREPARED_DATA_DIR.joinpath("sales_data_prepared.csv"))
 
         # Insert data into the database
+        insert_campaigns(campaign_df, cursor)
         insert_customers(customers_df, cursor)
         insert_products(products_df, cursor)
         insert_sales(sales_df, cursor)

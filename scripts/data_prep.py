@@ -129,6 +129,7 @@ def process_data(file_name: str) -> None:
                 df = df_scrubber.convert_column_to_new_data_type(col, int)
 
     # Remove outliers and handle invalid values
+    '''
     for col, dtype in column_info.items():
         if col in df.columns:
             if dtype == "int" or dtype == "float":
@@ -141,7 +142,7 @@ def process_data(file_name: str) -> None:
                 lower_bound = Q1 - 1.5 * IQR
                 upper_bound = Q3 + 1.5 * IQR               
                 df = df_scrubber.filter_column_outliers(col, lower_bound, upper_bound)
-
+    '''
     logger.info(f"Data after cleaning: {df_scrubber.check_data_consistency_after_cleaning()}")
 
     # Save cleaned data

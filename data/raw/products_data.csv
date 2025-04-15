@@ -10,5 +10,3 @@ ProductID,ProductName,Category,UnitPrice,Stock,Supplier,,3
 106,controller,Electronics,88.98,37,Jackson,,
 1012,,,,,,,
 ,Jack,,,,,,
-136,controller,Electronics,88.98,-2,Jackson,,
-146,controller,Electronics,1111188.98,37,Jackson,,
