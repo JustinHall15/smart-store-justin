@@ -28,12 +28,16 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
     with open("scripts/create_sale_table.sql", "r") as sql_file:
         sql_sale = sql_file.read()    
     cursor.execute(sql_sale)
+    with open("scripts/create_campaign_table.sql", "r") as sql_file:
+        sql_campaign = sql_file.read()
+    cursor.execute(sql_campaign)
 
 def delete_existing_records(cursor: sqlite3.Cursor) -> None:
     """Delete all existing records from the customer, product, and sale tables."""
     cursor.execute("DELETE FROM customer")
     cursor.execute("DELETE FROM product")
     cursor.execute("DELETE FROM sale")
+    cursor.execute("DELETE FROM campaign")
 
 def insert_campaigns(campaign_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
     """Insert campaign data into the campaign table."""

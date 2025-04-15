@@ -1761,3 +1761,7 @@ dtype: int64, 'duplicate_count': np.int64(0)}
 2025-04-15 14:00:26.368 | INFO     | __main__:insert_customers:80 - Customers data inserted into the customer table.
 2025-04-15 14:00:26.372 | INFO     | __main__:insert_products:103 - Products data inserted into the product table.
 2025-04-15 14:00:26.376 | INFO     | __main__:insert_sales:132 - Sales data inserted into the sale table.
+2025-04-15 14:06:52.622 | INFO     | __main__:insert_campaigns:61 - Campaigns data inserted into the campaign table.
+2025-04-15 14:06:52.626 | INFO     | __main__:insert_customers:84 - Customers data inserted into the customer table.
+2025-04-15 14:06:52.630 | INFO     | __main__:insert_products:107 - Products data inserted into the product table.
+2025-04-15 14:06:52.635 | INFO     | __main__:insert_sales:136 - Sales data inserted into the sale table.
