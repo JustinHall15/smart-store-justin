@@ -90,7 +90,7 @@ Here are images of the power of the visualsations I made
 ![campaignchart2](image-6.png)  
 
 ### Results  
-Sales are sparratic throughout all campaigns as seen in the first graph. The second set of graphs shows that sales were highest when there was no campaign at all, even when corrected for per day sales. The last graph show that transaction ammounts were highest for the May promotion and you can see from the graph above that this is likely due to increase sales in clothing.  
+Sales are sporadic throughout all campaigns as seen in the first graph. The second set of graphs shows that sales were highest when there was no campaign at all, even when corrected for per day sales. The last graph show that transaction ammounts were highest for the May promotion and you can see from the graph above that this is likely due to increase sales in clothing.  
 ### Suggested Actions  
 In 2024, money was wasted on campaigns. Marketing needs to be fixed. While the campaigns increased the number of transactions, it did not translate to sales of high ticket items. Focus on selling more high profit items. Consider getting rid of sports merchandise. Use Mays campaign as a launch board for future campaigns.
 ### Chalenges
