@@ -10,5 +10,5 @@ CREATE TABLE IF NOT EXISTS sale (
     payment_type TEXT,
     FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
     FOREIGN KEY (product_id) REFERENCES product (product_id),
-    FOREIGN KEY (campaign_id) REFERENCES campaign (campaighn_id)
+    FOREIGN KEY (campaign_id) REFERENCES campaign (campaign_id)
 );

@@ -1765,3 +1765,76 @@ dtype: int64, 'duplicate_count': np.int64(0)}
 2025-04-15 14:06:52.626 | INFO     | __main__:insert_customers:84 - Customers data inserted into the customer table.
 2025-04-15 14:06:52.630 | INFO     | __main__:insert_products:107 - Products data inserted into the product table.
 2025-04-15 14:06:52.635 | INFO     | __main__:insert_sales:136 - Sales data inserted into the sale table.
+2025-04-15 14:56:58.233 | INFO     | __main__:insert_campaigns:61 - Campaigns data inserted into the campaign table.
+2025-04-15 14:56:58.237 | INFO     | __main__:insert_customers:84 - Customers data inserted into the customer table.
+2025-04-15 14:56:58.241 | INFO     | __main__:insert_products:107 - Products data inserted into the product table.
+2025-04-15 14:56:58.244 | INFO     | __main__:insert_sales:136 - Sales data inserted into the sale table.
+2025-04-15 15:00:14.350 | INFO     | __main__:insert_campaigns:62 - Campaigns data inserted into the campaign table.
+2025-04-15 15:00:14.354 | INFO     | __main__:insert_customers:85 - Customers data inserted into the customer table.
+2025-04-15 15:00:14.358 | INFO     | __main__:insert_products:108 - Products data inserted into the product table.
+2025-04-15 15:00:14.362 | INFO     | __main__:insert_sales:137 - Sales data inserted into the sale table.
+2025-04-15 15:01:17.008 | INFO     | __main__:insert_campaigns:66 - Campaigns data inserted into the campaign table.
+2025-04-15 15:01:17.013 | INFO     | __main__:insert_customers:89 - Customers data inserted into the customer table.
+2025-04-15 15:01:17.016 | INFO     | __main__:insert_products:112 - Products data inserted into the product table.
+2025-04-15 15:01:17.019 | INFO     | __main__:insert_sales:141 - Sales data inserted into the sale table.
+2025-04-15 15:17:06.911 | INFO     | __main__:insert_campaigns:71 - Campaigns data inserted into the campaign table.
+2025-04-15 15:17:06.914 | INFO     | __main__:insert_customers:94 - Customers data inserted into the customer table.
+2025-04-15 15:17:06.917 | INFO     | __main__:insert_products:117 - Products data inserted into the product table.
+2025-04-15 15:17:06.923 | INFO     | __main__:insert_sales:146 - Sales data inserted into the sale table.
+2025-04-15 15:20:12.129 | INFO     | __main__:insert_campaigns:71 - Campaigns data inserted into the campaign table.
+2025-04-15 15:20:12.132 | INFO     | __main__:insert_customers:94 - Customers data inserted into the customer table.
+2025-04-15 15:20:12.135 | INFO     | __main__:insert_products:117 - Products data inserted into the product table.
+2025-04-15 15:20:12.139 | INFO     | __main__:insert_sales:146 - Sales data inserted into the sale table.
+2025-04-15 15:50:32.481 | INFO     | __main__:main:124 - Starting OLAP Cubing process...
+2025-04-15 15:50:32.485 | INFO     | __main__:ingest_sales_data_from_dw:28 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-15 15:50:32.513 | INFO     | __main__:create_olap_cube:77 - OLAP cube created with dimensions: ['sale_date', 'campaign_id', 'sale_id']
+2025-04-15 15:50:32.517 | INFO     | __main__:write_cube_to_csv:116 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 15:50:32.518 | INFO     | __main__:main:147 - OLAP Cubing process completed successfully.
+2025-04-15 15:50:32.518 | INFO     | __main__:main:148 - Please see outputs in data\olap_cubing_outputs
+2025-04-15 16:29:38.731 | INFO     | __main__:main:124 - Starting OLAP Cubing process...
+2025-04-15 16:29:38.733 | INFO     | __main__:ingest_sales_data_from_dw:28 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-15 16:29:38.747 | INFO     | __main__:create_olap_cube:77 - OLAP cube created with dimensions: ['sale_date', 'campaign_id', 'product_id']
+2025-04-15 16:29:38.750 | INFO     | __main__:write_cube_to_csv:116 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 16:29:38.750 | INFO     | __main__:main:147 - OLAP Cubing process completed successfully.
+2025-04-15 16:29:38.751 | INFO     | __main__:main:148 - Please see outputs in data\olap_cubing_outputs
+2025-04-15 16:45:43.227 | INFO     | __main__:main:124 - Starting OLAP Cubing process...
+2025-04-15 16:45:43.229 | INFO     | __main__:ingest_sales_data_from_dw:28 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-15 16:45:43.245 | INFO     | __main__:create_olap_cube:77 - OLAP cube created with dimensions: ['sale_date', 'campaign_id', 'product_id']
+2025-04-15 16:45:43.248 | INFO     | __main__:write_cube_to_csv:116 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 16:45:43.248 | INFO     | __main__:main:148 - OLAP Cubing process completed successfully.
+2025-04-15 16:45:43.248 | INFO     | __main__:main:149 - Please see outputs in data\olap_cubing_outputs
+2025-04-15 16:47:12.193 | INFO     | __main__:main:124 - Starting OLAP Cubing process...
+2025-04-15 16:47:12.195 | INFO     | __main__:ingest_sales_data_from_dw:28 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-15 16:47:12.210 | INFO     | __main__:create_olap_cube:77 - OLAP cube created with dimensions: ['sale_date', 'Month', 'campaign_id', 'product_id']
+2025-04-15 16:47:12.213 | INFO     | __main__:write_cube_to_csv:116 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 16:47:12.214 | INFO     | __main__:main:148 - OLAP Cubing process completed successfully.
+2025-04-15 16:47:12.214 | INFO     | __main__:main:149 - Please see outputs in data\olap_cubing_outputs
+2025-04-15 17:05:14.627 | INFO     | __main__:insert_campaigns:71 - Campaigns data inserted into the campaign table.
+2025-04-15 17:05:14.630 | INFO     | __main__:insert_customers:94 - Customers data inserted into the customer table.
+2025-04-15 17:05:14.634 | INFO     | __main__:insert_products:117 - Products data inserted into the product table.
+2025-04-15 17:05:14.637 | INFO     | __main__:insert_sales:146 - Sales data inserted into the sale table.
+2025-04-15 17:08:23.589 | INFO     | __main__:main:89 - Starting SALES PER CAMPAIGN analysis...
+2025-04-15 17:08:23.592 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 17:08:23.597 | INFO     | __main__:analyze_sales_by_campaign:42 - Sales aggregated by DayOfWeek successfully.
+2025-04-15 17:08:23.598 | INFO     | __main__:identify_least_profitable_campaign:53 - Least profitable campaign: 2.0 with revenue $8562.78.
+2025-04-15 17:08:23.598 | INFO     | __main__:main:99 - Least profitable campaign: 2.0
+2025-04-15 17:08:23.598 | INFO     | __main__:main:100 - Close the Figure to complete this script.
+2025-04-15 17:08:24.578 | INFO     | __main__:visualize_sales_by_campaign:80 - Visualization saved to data\results\sales_by_campaign_of_week.png.
+2025-04-15 17:08:46.388 | INFO     | __main__:main:104 - Analysis and visualization completed successfully.
+2025-04-15 17:13:09.691 | INFO     | __main__:main:124 - Starting OLAP Cubing process...
+2025-04-15 17:13:09.695 | INFO     | __main__:ingest_sales_data_from_dw:28 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-15 17:13:09.700 | ERROR    | __main__:create_olap_cube:80 - Error creating OLAP cube: 'campaign_id.campaign_name'
+2025-04-15 17:21:07.270 | INFO     | __main__:main:140 - Starting OLAP Cubing process...
+2025-04-15 17:21:07.272 | INFO     | __main__:ingest_sales_data_from_dw:44 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-15 17:21:07.285 | INFO     | __main__:create_olap_cube:93 - OLAP cube created with dimensions: ['sale_date', 'Month', 'campaign_name', 'category']
+2025-04-15 17:21:07.288 | INFO     | __main__:write_cube_to_csv:132 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 17:21:07.289 | INFO     | __main__:main:164 - OLAP Cubing process completed successfully.
+2025-04-15 17:21:07.289 | INFO     | __main__:main:165 - Please see outputs in data\olap_cubing_outputs
+2025-04-15 17:23:00.433 | INFO     | __main__:main:89 - Starting SALES PER CAMPAIGN analysis...
+2025-04-15 17:23:00.436 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 17:23:00.438 | INFO     | __main__:analyze_sales_by_campaign:42 - Sales aggregated by DayOfWeek successfully.
+2025-04-15 17:23:00.438 | INFO     | __main__:identify_least_profitable_campaign:53 - Least profitable campaign: JULY SALE with revenue $8562.78.
+2025-04-15 17:23:00.439 | INFO     | __main__:main:99 - Least profitable campaign: JULY SALE
+2025-04-15 17:23:00.439 | INFO     | __main__:main:100 - Close the Figure to complete this script.
+2025-04-15 17:23:00.644 | INFO     | __main__:visualize_sales_by_campaign:80 - Visualization saved to data\results\sales_by_campaign_of_week.png.
+2025-04-15 17:23:16.557 | INFO     | __main__:main:104 - Analysis and visualization completed successfully.

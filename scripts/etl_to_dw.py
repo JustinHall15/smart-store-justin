@@ -17,6 +17,15 @@ PREPARED_DATA_DIR = pathlib.Path("data").joinpath("prepared")
 
 def create_schema(cursor: sqlite3.Cursor) -> None:
     """Create tables in the data warehouse if they don't exist."""
+
+    try:
+        with open("scripts/create_campaign_table.sql", "r") as sql_file:
+            sql_campaign = sql_file.read()
+        cursor.execute(sql_campaign)
+    except sqlite3.Error as e:
+        logger.error(f"Error creating campaign table: {e}")
+        raise
+
     with open("scripts/create_customer_table.sql", "r") as sql_file:
         sql_customer = sql_file.read()    
     cursor.execute(sql_customer)
@@ -28,16 +37,17 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
     with open("scripts/create_sale_table.sql", "r") as sql_file:
         sql_sale = sql_file.read()    
     cursor.execute(sql_sale)
-    with open("scripts/create_campaign_table.sql", "r") as sql_file:
-        sql_campaign = sql_file.read()
-    cursor.execute(sql_campaign)
+
+
+
 
 def delete_existing_records(cursor: sqlite3.Cursor) -> None:
     """Delete all existing records from the customer, product, and sale tables."""
+    cursor.execute("DELETE FROM campaign")
     cursor.execute("DELETE FROM customer")
     cursor.execute("DELETE FROM product")
     cursor.execute("DELETE FROM sale")
-    cursor.execute("DELETE FROM campaign")
+    
 
 def insert_campaigns(campaign_df: pd.DataFrame, cursor: sqlite3.Cursor) -> None:
     """Insert campaign data into the campaign table."""
@@ -144,6 +154,9 @@ def load_data_to_db() -> None:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
 
+        # Enable foreign key enforcement
+        #cursor.execute("PRAGMA foreign_keys = ON;")
+
         # Create schema and clear existing records
         create_schema(cursor)
         delete_existing_records(cursor)
@@ -159,6 +172,9 @@ def load_data_to_db() -> None:
         insert_customers(customers_df, cursor)
         insert_products(products_df, cursor)
         insert_sales(sales_df, cursor)
+
+        cursor.execute("PRAGMA foreign_key_list(sale);")
+        print(cursor.fetchall())
 
         conn.commit()
     finally:
