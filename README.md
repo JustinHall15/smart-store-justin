@@ -49,9 +49,19 @@ This is the transfomed customer table
 Here are the interactive visuals created  
 ![salechart1](image-3.png)  
 ![salechart2](image-4.png)  
-## Transfomration and Visualization  
+## Transformation and Visualization  
 Added a campaign table. Cubed in python with pandas and created one chart and then switched to PowerBI.  
-Heres the power query code for transforming my sales table.  
+Heres the power query code for transforming my sales table. 
+### Goal  
+Analyze marketing Campaign effectiveness  
+### Data Source
+sale table: campaign_id, sale_amount, sale_date  
+campaign table: campaign_id, campaign_name, sart_date, end_date  
+product table: category  
+### Tools
+I started with python, but decided I wanted more experience with PowerBI. It is not as intuitive as I thought it would be. It seems to still need some comfort features added. I did learn how to use the power query coding.  
+### Logic  
+The dimensions I used were campaign_id, date, and product category with the values being sale_amout count and sum, and sale_amount per campaign day and transaction count per campaign day.  
 ```shell
 let
     Source = Odbc.DataSource("dsn=SmartSalesDSN", [HierarchicalNavigation=true]),
@@ -78,3 +88,10 @@ in
 Here are images of the power of the visualsations I made  
 ![campaignchart1](image-5.png)  
 ![campaignchart2](image-6.png)  
+
+### Results  
+Sales are sparratic throughout all campaigns as seen in the first graph. The second set of graphs shows that sales were highest when there was no campaign at all, even when corrected for per day sales. The last graph show that transaction ammounts were highest for the May promotion and you can see from the graph above that this is likely due to increase sales in clothing.  
+### Suggested Actions  
+In 2024, money was wasted on campaigns. Marketing needs to be fixed. While the campaigns increased the number of transactions, it did not translate to sales of high ticket items. Focus on selling more high profit items. Consider getting rid of sports merchandise. Use Mays campaign as a launch board for future campaigns.
+### Chalenges
+I thought using powerBI would be easier for making the transformations I wanted, it was not. I chose to learn a new language instead of improving my SQL or just using python.
